@@ -173,6 +173,7 @@ p {
     max-width: 350px;
     text-align: justify;
   }
+}
   
   @media screen and (min-width: 375px) {
   .contant {
