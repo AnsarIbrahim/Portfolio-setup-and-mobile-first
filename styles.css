@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Crete Round', serif;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.burger {
+  display: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #3e3c3c;
+  color: #fff;
+  height: 72px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 7%;
+}
+
+.nav-list {
+  margin-right: 17%;
+  display: flex;
+  gap: 30%;
+}
+
+.first-page {
+  background-image: url(assests/bgimg/Illustration-header\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 95vh;
+  background-color: #1c1a19;
+  background-position: right;
+  position: relative;
+}
+
+.contant {
+  color: #fff;
+  display: flex;
+  height: 95vh;
+}
+
+.social {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-left: 2%;
+}
+
+.cont {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 82px;
+  color: #f55800;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+p {
+  max-width: 566px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    margin-right: 5%;
+  }
+
+  .first-page {
+    background-image: url(assests/bgimg/Group.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #1c1a19;
+    background-position: right bottom;
+    position: relative;
+  }
+
+  .contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social {
+    order: 3;
+    flex-direction: row;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30%;
+  }
+}
