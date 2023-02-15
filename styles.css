@@ -175,9 +175,8 @@ p {
   }
 }
 
-  @media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
   .contant {
     margin-left: 0;
   }
 }
-  
