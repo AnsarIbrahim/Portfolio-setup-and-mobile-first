@@ -141,7 +141,7 @@ p {
     justify-content: flex-start;
     margin-left: 30%;
   }
-  
+
   h1 {
     font-family: 'Crete Round', serif;
     font-style: normal;
@@ -149,10 +149,10 @@ p {
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
-    color: #FF6B00;
+    color: #ff6b00;
   }
-  
-   h3 {
+
+  h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -160,21 +160,21 @@ p {
     line-height: 32px;
     display: flex;
     align-items: center;
-    color: #FFF5E1;
+    color: #fff5e1;
   }
-  
+
   p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #fff;
     max-width: 350px;
     text-align: justify;
   }
 }
-  
+
   @media screen and (min-width: 375px) {
   .contant {
     margin-left: 0;
