@@ -128,18 +128,15 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -50px 0 0 50px;
+    margin: -50px 0 0 5px;
     position: absolute;
   }
 
   .social {
     order: 3;
     flex-direction: row;
-    padding-top: 20px;
-    width: 100%;
     display: flex;
-    justify-content: flex-start;
-    margin-left: 30%;
+    margin: 5% 0 0 -15%;
   }
 
   h1 {
